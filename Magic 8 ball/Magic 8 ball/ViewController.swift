@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     }
     
     override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
-        self.rotate360()
+        self.rotate()
     }
     
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
